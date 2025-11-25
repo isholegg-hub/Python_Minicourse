@@ -23,6 +23,8 @@
 
 Telegram: @repetitor_j
 
+e-mail: iwebyk@gmail.com
+
 
 
 ## Як почати
