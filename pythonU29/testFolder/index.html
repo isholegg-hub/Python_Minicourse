@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Tetris — simple HTML+JS</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Тетрис</h1>
+    <div class="side">
+      <canvas id="game" width="300" height="600"></canvas>
+      <div class="info">
+        <div>Score: <span id="score">0</span></div>
+        <div>Level: <span id="level">1</span></div>
+        <div>Lines: <span id="lines">0</span></div>
+      </div>
+    </div>
+    <div class="controls">
+      <h2>Управление</h2>
+      <ul>
+        <li><b>←</b> и <b>→</b> — перемещение</li>
+        <li><b>↑</b> — поворот</li>
+        <li><b>↓</b> — опускание</li>
+        <li><b>Пробел</b> — быстрый сброс</li>
+        <li><b>P</b> — пауза</li>
+      </ul>
+      <button id="restart">Начать заново</button>
+    </div>
+  </div>
+
+  <script src="tetris.js"></script>
+</body>
+</html>
